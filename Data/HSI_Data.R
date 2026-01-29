@@ -51,6 +51,7 @@ incompleted_componment = unique(incompleted_componment)
 completed_hsi_stock_datalist = 
   hsi_stock_datalist[!names(hsi_stock_datalist) %in% incompleted_componment]
 
+
 save(hsi_stock_datalist,hsi_stock_symbol,completed_hsi_stock_datalist 
      , file = "hsi_stock_data.RData")
               
