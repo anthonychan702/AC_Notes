@@ -1,7 +1,7 @@
 library(zoo)
 library(quantmod)
 library(dplyr)
-# Until 2025-12
+# start at 2019-01 Until 2025-12
 hsi_stock_codes = c(
   5, 388, 939, 1299, 1398, 2318, 2388, 2628, 3968, 3988,
   2, 3, 6, 836, 1038, 2688,
